@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(claude --version)",
+      "Bash(curl -s https://raw.githubusercontent.com/obra/superpowers/main/README.md)",
+      "Read(//home/isaak/.claude/plugins/**)",
+      "Read(//home/isaak/.claude/**)",
+      "Skill(update-config)",
+      "Skill(update-config:*)",
+      "Bash(mkdir -p /home/isaak/.claude/mcp_servers/isaaclab_docs)",
+      "Bash(pip install *)",
+      "Bash(mkdir -p /home/isaak/.claude/mcp_servers/isaacgym_docs)",
+      "Bash(cp /home/isaak/BEPImitationlearning/isaacgym_mcp/server.py /home/isaak/.claude/mcp_servers/isaacgym_docs/server.py)"
+    ]
+  }
+}
