@@ -1,0 +1,13 @@
+# Humanoid-Goalkeeper-isaaclab — validated commands (2026-04-25)
+
+# Activate environment
+conda activate /home/isaak/miniconda3/envs/env_isaaclab
+
+# Non-headless training (with GUI viewport — low env count for VRAM)
+/home/isaak/miniconda3/envs/env_isaaclab/bin/python -u scripts/train.py --num_envs=2 --max_iterations=200000
+
+# Headless training (faster, no GUI)
+/home/isaak/miniconda3/envs/env_isaaclab/bin/python -u scripts/train.py --headless --num_envs=512 --max_iterations=200000
+
+# Smoke test (16 envs, 50 steps, headless)
+/home/isaak/miniconda3/envs/env_isaaclab/bin/python -u scripts/test_env.py --headless --num_envs=16 --steps=50

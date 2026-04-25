@@ -1,0 +1,1 @@
+Okay the folder of humanoid goalkeeper is the original repo that cant be touched i copy pasted it in Imitationlearningbooster, the first thing  we are going to do is make a custom conda environment for this specific folder, it is going to m

@@ -1,0 +1,35 @@
+# Credentials / secrets
+Wandbkey.txt
+*.key
+*.secret
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+*.so
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# IDE / editor
+.vscode/
+.cursor/
+.idea/
+
+# Isaac Gym compiled files
+*.egg
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs / outputs
+logs/
+runs/
+*.log
