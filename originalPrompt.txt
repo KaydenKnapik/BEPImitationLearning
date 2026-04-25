@@ -1,0 +1,15 @@
+"Okay this is going to be a complex big task, so only output long text when you are fully finished. i want  
+  ▎ you to convert the '/home/isaak/BEPImitationlearning/Humanoid-Goalkeeper' folder from isaacgym to           
+  ▎ isaaclab/isaacsim, i have isaacsim downloaded and you launch it with conda activate                         
+  ▎ /home/isaak/miniconda3/envs/env_isaaclab isaacsim, and the isaaclab folder is here:~/IsaacLab i want you to 
+  ▎ fully use the isaacgym mcp and isaaclab mcp if you have any questions regarding the conversion take full    
+  ▎ note on this page                                                                                           
+  ▎ https://isaac-sim.github.io/IsaacLab/main/source/migration/migrating_from_isaacgymenvs.html because it 
+  ▎ explains the important things i want you then also first make a .md file with all the infromation of that   
+  ▎ webpage and put it in the context folder or some .md file claude everytime when it sees it in the 
+  ▎ '/home/isaak/BEPImitationlearning/Humanoid-Goalkeeper-isaaclab'folder it needs to read this. i am going to  
+  ▎ put you in loop so every command you run u need to limit by 5 minutes if you think it would otherwise get 
+  ▎ stuck /loop. so start by converting this repo, take note i have isaacsim 5.0.0 and the version of isaaclab i
+  ▎  dont know. only stop the loop when you tested everything and ran the training without any errors, run it 
+  ▎ headless to see if you dont have any errors. Plan first to make sure u have a good structure so you dont
+  ▎ miss out any details."

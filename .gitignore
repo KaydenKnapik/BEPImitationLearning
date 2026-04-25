@@ -17,10 +17,15 @@ venv/
 .venv/
 env/
 
-# IDE / editor
+# IDE / editor / AI assistants
 .vscode/
-.cursor/
 .idea/
+.cursor/
+.claude/
+.copilot/
+*.claude
+*.copilot
+*.cursor
 
 # Isaac Gym compiled files
 *.egg
@@ -33,3 +38,8 @@ Thumbs.db
 logs/
 runs/
 *.log
+
+# Local overrides
+.local/
+.env.local
+settings.local.json
