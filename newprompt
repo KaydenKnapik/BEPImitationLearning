@@ -1,0 +1,80 @@
+
+2026-04-27T14:24:05Z [9,412ms] [Warning] [omni.usd] Warning: in _ReportErrors at line 3172 of /builds/omniverse/usd-ci/USD/pxr/usd/usd/stage.cpp -- In </World/envs/env_772/Robot/imu_in_torso/visuals>: Unresolved reference prim path @/tmp/IsaacLab/usd_20260427_162401_1576/configuration/g1_29_physics.usd@</visuals/imu_in_torso> introduced by @/tmp/IsaacLab/usd_20260427_162401_1576/configuration/g1_29_base.usd@</g1_29dof_rev_1_0/imu_in_torso/visuals> (recomposing stage on stage @anon:0x5dc685f8e1c0:World0.usd@ <0x5dc685f93750>)
+
+2026-04-27T14:24:05Z [9,412ms] [Warning] [omni.usd] Warning: in _ReportErrors at line 3172 of /builds/omniverse/usd-ci/USD/pxr/usd/usd/stage.cpp -- In </World/envs/env_772/Robot/mid360_link/visuals>: Unresolved reference prim path @/tmp/IsaacLab/usd_20260427_162401_1576/configuration/g1_29_physics.usd@</visuals/mid360_link> introduced by @/tmp/IsaacLab/usd_20260427_162401_1576/configuration/g1_29_base.usd@</g1_29dof_rev_1_0/mid360_link/visuals> (recomposing stage on stage @anon:0x5dc685f8e1c0:World0.usd@ <0x5dc685f93750>)
+
+[INFO]: Time taken for scene creation : 10.693488 seconds
+[INFO]: Scene manager:  <class InteractiveScene>
+        Number of environments: 4096
+        Environment spacing   : 5.0
+        Source prim name      : /World/envs/env_0
+        Global prim paths     : ['/World/ground']
+        Replicate physics     : True
+[INFO]: Starting the simulation. This may take a few seconds. Please wait...
+[INFO]: Time taken for simulation start : 7.052678 seconds
+[INFO]: Completed setting up the environment...
+[GoalkeeperEnv] Bodies=39, DOFs=29
+[GoalkeeperEnv] Contact feet=['left_ankle_roll_link', 'right_ankle_roll_link']
+[GoalkeeperEnv] Hands=['left_rubber_hand', 'right_rubber_hand']
+[GoalkeeperEnv] Knees=['left_knee_link', 'right_knee_link']
+Loading motion dataset: 100%|█████████████████████████████████████████████████| 6/6 [00:00<00:00, 1071.89it/s]
+[MotionLib] Loaded 60 motion clips.
+--------------------------------------------------------------------------------
+Resolved observation sets: 
+         actor :  ['policy']
+         critic :  ['critic']
+--------------------------------------------------------------------------------
+Actor Model: MLPModel(
+  (obs_normalizer): Identity()
+  (distribution): GaussianDistribution()
+  (mlp): MLP(
+    (0): Linear(in_features=960, out_features=512, bias=True)
+    (1): ELU(alpha=1.0)
+    (2): Linear(in_features=512, out_features=256, bias=True)
+    (3): ELU(alpha=1.0)
+    (4): Linear(in_features=256, out_features=256, bias=True)
+    (5): ELU(alpha=1.0)
+    (6): Linear(in_features=256, out_features=29, bias=True)
+  )
+)
+Critic Model: MLPModel(
+  (obs_normalizer): Identity()
+  (mlp): MLP(
+    (0): Linear(in_features=113, out_features=512, bias=True)
+    (1): ELU(alpha=1.0)
+    (2): Linear(in_features=512, out_features=256, bias=True)
+    (3): ELU(alpha=1.0)
+    (4): Linear(in_features=256, out_features=256, bias=True)
+    (5): ELU(alpha=1.0)
+    (6): Linear(in_features=256, out_features=1, bias=True)
+  )
+)
+Could not find git repository in /home/isaak/miniforge3/envs/isaak_isaaclab/lib/python3.11/site-packages/rsl_rl/__init__.py. Skipping.
+Traceback (most recent call last):
+  File "/home/isaak/BEPImitationlearning/Humanoid-Goalkeeper-isaaclab/scripts/train.py", line 94, in <module>
+    main()
+  File "/home/isaak/BEPImitationlearning/Humanoid-Goalkeeper-isaaclab/scripts/train.py", line 89, in main
+    runner.learn(num_learning_iterations=agent_cfg.max_iterations, init_at_random_ep_len=True)
+  File "/home/isaak/miniforge3/envs/isaak_isaaclab/lib/python3.11/site-packages/rsl_rl/runners/on_policy_runner.py", line 87, in learn
+    obs, rewards, dones, extras = self.env.step(actions.to(self.env.device))
+                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/isaak/BEPImitationlearning/IsaacLab/source/isaaclab_rl/isaaclab_rl/rsl_rl/vecenv_wrapper.py", line 156, in step
+    obs_dict, rew, terminated, truncated, extras = self.env.step(actions)
+                                                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/isaak/miniforge3/envs/isaak_isaaclab/lib/python3.11/site-packages/gymnasium/wrappers/common.py", line 393, in step
+    return super().step(action)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/isaak/miniforge3/envs/isaak_isaaclab/lib/python3.11/site-packages/gymnasium/core.py", line 327, in step
+    return self.env.step(action)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/isaak/BEPImitationlearning/IsaacLab/source/isaaclab/isaaclab/envs/direct_rl_env.py", line 391, in step
+    self.reset_terminated[:], self.reset_time_outs[:] = self._get_dones()
+                                                        ^^^^^^^^^^^^^^^^^
+  File "/home/isaak/BEPImitationlearning/Humanoid-Goalkeeper-isaaclab/goalkeeper/goalkeeper_env.py", line 131, in _get_dones
+    self._update_derived_quantities()
+  File "/home/isaak/BEPImitationlearning/Humanoid-Goalkeeper-isaaclab/goalkeeper/goalkeeper_env.py", line 717, in _update_derived_quantities
+    self.joint_powers = torch.cat([joint_powers, self.joint_powers[:, :-1]], dim=1)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 46.00 MiB. GPU 0 has a total capacity of 7.66 GiB of which 60.94 MiB is free. Including non-PyTorch memory, this process has 6.33 GiB memory in use. Of the allocated memory 1.91 GiB is allocated by PyTorch, and 48.40 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+2026-04-27T14:24:20Z [24,426ms] [Warning] [omni.physx.plugin] USD stage detach not called, holding a loose ptr to a stage!
+2026-04-27T14:24:21Z [25,400ms] [Warning] [carb] Recursive unloadAllPlugins() detected!
