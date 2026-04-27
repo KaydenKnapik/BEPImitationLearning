@@ -1,12 +1,14 @@
 """Train the Goalkeeper policy with RSL-RL (OnPolicyRunner / PPO).
 
 Usage:
-    conda activate /home/isaak/miniconda3/envs/env_isaaclab
-    python scripts/train.py --headless --num_envs=512 --max_iterations=200000
+    conda activate isaak_isaaclab
+    python -u scripts/train.py --headless --num_envs=512 --max_iterations=200000
 
 Note: Isaac Sim must be launched via AppLauncher BEFORE any other imports.
+Environment: isaak_isaaclab (Isaac Sim 5.1.0 / Isaac Lab 0.54.3 / rsl_rl 5.0.1)
 """
 import argparse
+import importlib.metadata
 import sys
 import os
 
@@ -17,7 +19,7 @@ parser = argparse.ArgumentParser(description="Train Goalkeeper with RSL-RL PPO")
 parser.add_argument("--num_envs", type=int, default=512, help="Number of parallel environments")
 parser.add_argument("--max_iterations", type=int, default=200000, help="Max training iterations")
 parser.add_argument("--seed", type=int, default=42, help="Random seed")
-AppLauncher.add_app_launcher_args(parser)  # adds --device among others
+AppLauncher.add_app_launcher_args(parser)  # adds --headless, --device, etc.
 args_cli = parser.parse_args()
 app_launcher = AppLauncher(args_cli)
 simulation_app = app_launcher.app
@@ -28,7 +30,7 @@ import gymnasium as gym
 from datetime import datetime
 from rsl_rl.runners import OnPolicyRunner
 
-from isaaclab_rl.rsl_rl import RslRlVecEnvWrapper
+from isaaclab_rl.rsl_rl import RslRlVecEnvWrapper, handle_deprecated_rsl_rl_cfg
 
 # Add parent dir so `goalkeeper` package is importable
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
@@ -54,6 +56,10 @@ def main():
     agent_cfg.device = args_cli.device
     if args_cli.max_iterations is not None:
         agent_cfg.max_iterations = args_cli.max_iterations
+
+    # Convert deprecated rsl_rl config fields for the installed rsl_rl version
+    rsl_rl_version = importlib.metadata.version("rsl_rl_lib")
+    agent_cfg = handle_deprecated_rsl_rl_cfg(agent_cfg, rsl_rl_version)
 
     # Logging directory
     log_root = os.path.join(
