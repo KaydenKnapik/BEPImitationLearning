@@ -1,0 +1,859 @@
+################################################################################
+                         Learning iteration 24962/40000                          
+
+                               Run name: g1_isaaclab
+                            Total steps: 20449689600 
+                       Steps per second: 242247 
+                        Collection time: 2.954s 
+                          Learning time: 0.428s 
+                        Mean value loss: 0.3782
+                    Mean surrogate loss: 0.0011
+                      Mean entropy loss: 32.2248
+                            Mean reward: -6.21
+                    Mean episode length: 12.18
+                        Mean action std: 0.74
+               Mean episode rew_eereach: 64.4648
+               Mean episode rew_success: 0.1597
+              Mean episode rew_stopball: 6.3019
+            Mean episode rew_stayonline: -0.4666
+             Mean episode rew_noretreat: -3.7633
+           Mean episode rew_successland: 0.0000
+        Mean episode rew_feetorientaion: 1.4870
+ Mean episode rew_penalize_sharpcontact: 0.0000
+   Mean episode rew_penalize_kneeheight: -0.4074
+         Mean episode rew_feet_slippage: 36.3454
+       Mean episode rew_postorientation: 0.1631
+            Mean episode rew_postangvel: 0.0040
+       Mean episode rew_postupperdofpos: 0.0000
+       Mean episode rew_postwaistdofpos: 0.0122
+            Mean episode rew_postlinvel: 0.0596
+            Mean episode rew_ang_vel_xy: -34.1009
+               Mean episode rew_dof_acc: -23.4300
+            Mean episode rew_smoothness: -125.8041
+               Mean episode rew_torques: -0.0031
+               Mean episode rew_dof_vel: -26.0218
+        Mean episode rew_dof_pos_limits: -25.9977
+        Mean episode rew_dof_vel_limits: -158.0421
+         Mean episode rew_torque_limits: -0.6075
+Mean episode rew_deviation_waist_pitch_joint: -17.3461
+--------------------------------------------------------------------------------
+                         Iteration time: 3.38s
+                           Time elapsed: 23:37:56
+                                    ETA: 14:14:07
+
+################################################################################
+                         Learning iteration 24963/40000                          
+
+                               Run name: g1_isaaclab
+                            Total steps: 20450508800 
+                       Steps per second: 242194 
+                        Collection time: 2.953s 
+                          Learning time: 0.430s 
+                        Mean value loss: 0.3319
+                    Mean surrogate loss: 0.0090
+                      Mean entropy loss: 32.2198
+                            Mean reward: -7.61
+                    Mean episode length: 10.55
+                        Mean action std: 0.74
+               Mean episode rew_eereach: 64.0572
+               Mean episode rew_success: 0.1737
+              Mean episode rew_stopball: 4.2745
+            Mean episode rew_stayonline: -0.4799
+             Mean episode rew_noretreat: -3.9439
+           Mean episode rew_successland: 0.0000
+        Mean episode rew_feetorientaion: 1.5656
+ Mean episode rew_penalize_sharpcontact: 0.0000
+   Mean episode rew_penalize_kneeheight: -0.3667
+         Mean episode rew_feet_slippage: 36.0096
+       Mean episode rew_postorientation: 0.1164
+            Mean episode rew_postangvel: 0.0028
+       Mean episode rew_postupperdofpos: 0.0000
+       Mean episode rew_postwaistdofpos: 0.0077
+            Mean episode rew_postlinvel: 0.0382
+            Mean episode rew_ang_vel_xy: -34.1440
+               Mean episode rew_dof_acc: -23.9860
+            Mean episode rew_smoothness: -124.7382
+               Mean episode rew_torques: -0.0031
+               Mean episode rew_dof_vel: -26.5319
+        Mean episode rew_dof_pos_limits: -24.8596
+        Mean episode rew_dof_vel_limits: -162.4742
+         Mean episode rew_torque_limits: -0.6356
+Mean episode rew_deviation_waist_pitch_joint: -17.0877
+--------------------------------------------------------------------------------
+                         Iteration time: 3.38s
+                           Time elapsed: 23:38:00
+                                    ETA: 14:14:04
+
+################################################################################
+                         Learning iteration 24964/40000                          
+
+                               Run name: g1_isaaclab
+                            Total steps: 20451328000 
+                       Steps per second: 241601 
+                        Collection time: 2.962s 
+                          Learning time: 0.429s 
+                        Mean value loss: 0.4157
+                    Mean surrogate loss: 0.0043
+                      Mean entropy loss: 32.2139
+                            Mean reward: -5.48
+                    Mean episode length: 10.30
+                        Mean action std: 0.74
+               Mean episode rew_eereach: 58.1941
+               Mean episode rew_success: 0.1586
+              Mean episode rew_stopball: 5.0807
+            Mean episode rew_stayonline: -0.4285
+             Mean episode rew_noretreat: -3.4148
+           Mean episode rew_successland: 0.0000
+        Mean episode rew_feetorientaion: 1.3357
+ Mean episode rew_penalize_sharpcontact: 0.0000
+   Mean episode rew_penalize_kneeheight: -0.4016
+         Mean episode rew_feet_slippage: 33.4738
+       Mean episode rew_postorientation: 0.1618
+            Mean episode rew_postangvel: 0.0040
+       Mean episode rew_postupperdofpos: 0.0000
+       Mean episode rew_postwaistdofpos: 0.0095
+            Mean episode rew_postlinvel: 0.0526
+            Mean episode rew_ang_vel_xy: -35.0980
+               Mean episode rew_dof_acc: -24.1525
+            Mean episode rew_smoothness: -123.1492
+               Mean episode rew_torques: -0.0033
+               Mean episode rew_dof_vel: -23.6064
+        Mean episode rew_dof_pos_limits: -25.1337
+        Mean episode rew_dof_vel_limits: -136.8670
+         Mean episode rew_torque_limits: -1.3601
+Mean episode rew_deviation_waist_pitch_joint: -16.2569
+--------------------------------------------------------------------------------
+                         Iteration time: 3.39s
+                           Time elapsed: 23:38:03
+                                    ETA: 14:14:00
+
+################################################################################
+                         Learning iteration 24965/40000                          
+
+                               Run name: g1_isaaclab
+                            Total steps: 20452147200 
+                       Steps per second: 242556 
+                        Collection time: 2.951s 
+                          Learning time: 0.426s 
+                        Mean value loss: 0.3722
+                    Mean surrogate loss: 0.0029
+                      Mean entropy loss: 32.2090
+                            Mean reward: -5.65
+                    Mean episode length: 10.69
+                        Mean action std: 0.74
+               Mean episode rew_eereach: 53.6982
+               Mean episode rew_success: 0.1286
+              Mean episode rew_stopball: 4.9939
+            Mean episode rew_stayonline: -0.4032
+             Mean episode rew_noretreat: -3.4213
+           Mean episode rew_successland: 0.0000
+        Mean episode rew_feetorientaion: 1.0212
+ Mean episode rew_penalize_sharpcontact: 0.0000
+   Mean episode rew_penalize_kneeheight: -0.4243
+         Mean episode rew_feet_slippage: 31.6998
+       Mean episode rew_postorientation: 0.0987
+            Mean episode rew_postangvel: 0.0026
+       Mean episode rew_postupperdofpos: 0.0000
+       Mean episode rew_postwaistdofpos: 0.0064
+            Mean episode rew_postlinvel: 0.0392
+            Mean episode rew_ang_vel_xy: -35.1657
+               Mean episode rew_dof_acc: -22.8802
+            Mean episode rew_smoothness: -123.6662
+               Mean episode rew_torques: -0.0039
+               Mean episode rew_dof_vel: -19.4958
+        Mean episode rew_dof_pos_limits: -29.1115
+        Mean episode rew_dof_vel_limits: -98.8019
+         Mean episode rew_torque_limits: -1.9184
+Mean episode rew_deviation_waist_pitch_joint: -15.2542
+--------------------------------------------------------------------------------
+                         Iteration time: 3.38s
+                           Time elapsed: 23:38:06
+                                    ETA: 14:13:57
+
+################################################################################
+                         Learning iteration 24966/40000                          
+
+                               Run name: g1_isaaclab
+                            Total steps: 20452966400 
+                       Steps per second: 242256 
+                        Collection time: 2.953s 
+                          Learning time: 0.429s 
+                        Mean value loss: 0.2901
+                    Mean surrogate loss: 0.0083
+                      Mean entropy loss: 32.2032
+                            Mean reward: -5.68
+                    Mean episode length: 9.81
+                        Mean action std: 0.74
+               Mean episode rew_eereach: 53.9436
+               Mean episode rew_success: 0.1224
+              Mean episode rew_stopball: 3.4517
+            Mean episode rew_stayonline: -0.4040
+             Mean episode rew_noretreat: -3.5490
+           Mean episode rew_successland: 0.0000
+        Mean episode rew_feetorientaion: 1.0489
+ Mean episode rew_penalize_sharpcontact: 0.0000
+   Mean episode rew_penalize_kneeheight: -0.3297
+         Mean episode rew_feet_slippage: 31.7241
+       Mean episode rew_postorientation: 0.0640
+            Mean episode rew_postangvel: 0.0016
+       Mean episode rew_postupperdofpos: 0.0000
+       Mean episode rew_postwaistdofpos: 0.0044
+            Mean episode rew_postlinvel: 0.0271
+            Mean episode rew_ang_vel_xy: -35.4442
+               Mean episode rew_dof_acc: -22.3347
+            Mean episode rew_smoothness: -125.9428
+               Mean episode rew_torques: -0.0039
+               Mean episode rew_dof_vel: -19.1082
+        Mean episode rew_dof_pos_limits: -30.1504
+        Mean episode rew_dof_vel_limits: -95.8348
+         Mean episode rew_torque_limits: -1.8476
+Mean episode rew_deviation_waist_pitch_joint: -15.0335
+--------------------------------------------------------------------------------
+                         Iteration time: 3.38s
+                           Time elapsed: 23:38:10
+                                    ETA: 14:13:54
+
+################################################################################
+                         Learning iteration 24967/40000                          
+
+                               Run name: g1_isaaclab
+                            Total steps: 20453785600 
+                       Steps per second: 241792 
+                        Collection time: 2.959s 
+                          Learning time: 0.429s 
+                        Mean value loss: 0.2559
+                    Mean surrogate loss: 0.0167
+                      Mean entropy loss: 32.1954
+                            Mean reward: -5.80
+                    Mean episode length: 12.07
+                        Mean action std: 0.74
+               Mean episode rew_eereach: 58.8833
+               Mean episode rew_success: 0.1698
+              Mean episode rew_stopball: 3.3661
+            Mean episode rew_stayonline: -0.4512
+             Mean episode rew_noretreat: -3.6921
+           Mean episode rew_successland: 0.0000
+        Mean episode rew_feetorientaion: 1.4314
+ Mean episode rew_penalize_sharpcontact: 0.0000
+   Mean episode rew_penalize_kneeheight: -0.2960
+         Mean episode rew_feet_slippage: 33.7485
+       Mean episode rew_postorientation: 0.0608
+            Mean episode rew_postangvel: 0.0016
+       Mean episode rew_postupperdofpos: 0.0000
+       Mean episode rew_postwaistdofpos: 0.0044
+            Mean episode rew_postlinvel: 0.0205
+            Mean episode rew_ang_vel_xy: -33.0344
+               Mean episode rew_dof_acc: -23.5114
+            Mean episode rew_smoothness: -121.6911
+               Mean episode rew_torques: -0.0033
+               Mean episode rew_dof_vel: -22.8500
+        Mean episode rew_dof_pos_limits: -25.6283
+        Mean episode rew_dof_vel_limits: -130.4880
+         Mean episode rew_torque_limits: -0.7604
+Mean episode rew_deviation_waist_pitch_joint: -16.4597
+--------------------------------------------------------------------------------
+                         Iteration time: 3.39s
+                           Time elapsed: 23:38:13
+                                    ETA: 14:13:50
+
+################################################################################
+                         Learning iteration 24968/40000                          
+
+                               Run name: g1_isaaclab
+                            Total steps: 20454604800 
+                       Steps per second: 242277 
+                        Collection time: 2.955s 
+                          Learning time: 0.427s 
+                        Mean value loss: 0.2640
+                    Mean surrogate loss: 0.0155
+                      Mean entropy loss: 32.1864
+                            Mean reward: -6.53
+                    Mean episode length: 10.01
+                        Mean action std: 0.74
+               Mean episode rew_eereach: 58.6966
+               Mean episode rew_success: 0.1408
+              Mean episode rew_stopball: 6.0589
+            Mean episode rew_stayonline: -0.4311
+             Mean episode rew_noretreat: -3.5860
+           Mean episode rew_successland: 0.0000
+        Mean episode rew_feetorientaion: 1.4730
+ Mean episode rew_penalize_sharpcontact: 0.0000
+   Mean episode rew_penalize_kneeheight: -0.2880
+         Mean episode rew_feet_slippage: 33.8203
+       Mean episode rew_postorientation: 0.1444
+            Mean episode rew_postangvel: 0.0040
+       Mean episode rew_postupperdofpos: 0.0000
+       Mean episode rew_postwaistdofpos: 0.0089
+            Mean episode rew_postlinvel: 0.0534
+            Mean episode rew_ang_vel_xy: -33.1958
+               Mean episode rew_dof_acc: -22.4888
+            Mean episode rew_smoothness: -125.8159
+               Mean episode rew_torques: -0.0034
+               Mean episode rew_dof_vel: -22.1111
+        Mean episode rew_dof_pos_limits: -27.4166
+        Mean episode rew_dof_vel_limits: -124.8786
+         Mean episode rew_torque_limits: -0.7021
+Mean episode rew_deviation_waist_pitch_joint: -15.5030
+--------------------------------------------------------------------------------
+                         Iteration time: 3.38s
+                           Time elapsed: 23:38:16
+                                    ETA: 14:13:47
+
+################################################################################
+                         Learning iteration 24969/40000                          
+
+                               Run name: g1_isaaclab
+                            Total steps: 20455424000 
+                       Steps per second: 241585 
+                        Collection time: 2.964s 
+                          Learning time: 0.427s 
+                        Mean value loss: 0.3539
+                    Mean surrogate loss: 0.0294
+                      Mean entropy loss: 32.1781
+                            Mean reward: -7.56
+                    Mean episode length: 10.51
+                        Mean action std: 0.74
+               Mean episode rew_eereach: 57.7898
+               Mean episode rew_success: 0.2082
+              Mean episode rew_stopball: 4.2823
+            Mean episode rew_stayonline: -0.4315
+             Mean episode rew_noretreat: -3.4728
+           Mean episode rew_successland: 0.0000
+        Mean episode rew_feetorientaion: 1.9556
+ Mean episode rew_penalize_sharpcontact: 0.0000
+   Mean episode rew_penalize_kneeheight: -0.2509
+         Mean episode rew_feet_slippage: 33.1105
+       Mean episode rew_postorientation: 0.0990
+            Mean episode rew_postangvel: 0.0026
+       Mean episode rew_postupperdofpos: 0.0000
+       Mean episode rew_postwaistdofpos: 0.0082
+            Mean episode rew_postlinvel: 0.0335
+            Mean episode rew_ang_vel_xy: -34.1812
+               Mean episode rew_dof_acc: -26.1475
+            Mean episode rew_smoothness: -113.3231
+               Mean episode rew_torques: -0.0028
+               Mean episode rew_dof_vel: -26.8743
+        Mean episode rew_dof_pos_limits: -19.4393
+        Mean episode rew_dof_vel_limits: -167.1561
+         Mean episode rew_torque_limits: -0.7502
+Mean episode rew_deviation_waist_pitch_joint: -16.4569
+--------------------------------------------------------------------------------
+                         Iteration time: 3.39s
+                           Time elapsed: 23:38:20
+                                    ETA: 14:13:43
+
+################################################################################
+                         Learning iteration 24970/40000                          
+
+                               Run name: g1_isaaclab
+                            Total steps: 20456243200 
+                       Steps per second: 241864 
+                        Collection time: 2.960s 
+                          Learning time: 0.427s 
+                        Mean value loss: 0.3480
+                    Mean surrogate loss: 0.0273
+                      Mean entropy loss: 32.1720
+                            Mean reward: -6.82
+                    Mean episode length: 11.67
+                        Mean action std: 0.74
+               Mean episode rew_eereach: 62.5050
+               Mean episode rew_success: 0.1964
+              Mean episode rew_stopball: 5.9185
+            Mean episode rew_stayonline: -0.4629
+             Mean episode rew_noretreat: -3.5927
+           Mean episode rew_successland: 0.0000
+        Mean episode rew_feetorientaion: 1.7962
+ Mean episode rew_penalize_sharpcontact: 0.0000
+   Mean episode rew_penalize_kneeheight: -0.3217
+         Mean episode rew_feet_slippage: 35.3497
+       Mean episode rew_postorientation: 0.1402
+            Mean episode rew_postangvel: 0.0034
+       Mean episode rew_postupperdofpos: 0.0000
+       Mean episode rew_postwaistdofpos: 0.0134
+            Mean episode rew_postlinvel: 0.0537
+            Mean episode rew_ang_vel_xy: -33.6732
+               Mean episode rew_dof_acc: -25.0629
+            Mean episode rew_smoothness: -122.5918
+               Mean episode rew_torques: -0.0029
+               Mean episode rew_dof_vel: -27.5514
+        Mean episode rew_dof_pos_limits: -22.4912
+        Mean episode rew_dof_vel_limits: -172.0637
+         Mean episode rew_torque_limits: -0.6334
+Mean episode rew_deviation_waist_pitch_joint: -16.9073
+--------------------------------------------------------------------------------
+                         Iteration time: 3.39s
+                           Time elapsed: 23:38:23
+                                    ETA: 14:13:40
+
+################################################################################
+                         Learning iteration 24971/40000                          
+
+                               Run name: g1_isaaclab
+                            Total steps: 20457062400 
+                       Steps per second: 241627 
+                        Collection time: 2.962s 
+                          Learning time: 0.429s 
+                        Mean value loss: 0.3599
+                    Mean surrogate loss: 0.0153
+                      Mean entropy loss: 32.1656
+                            Mean reward: -6.79
+                    Mean episode length: 11.06
+                        Mean action std: 0.74
+               Mean episode rew_eereach: 63.4175
+               Mean episode rew_success: 0.2021
+              Mean episode rew_stopball: 8.7098
+            Mean episode rew_stayonline: -0.4921
+             Mean episode rew_noretreat: -3.9771
+           Mean episode rew_successland: 0.0000
+        Mean episode rew_feetorientaion: 1.6541
+ Mean episode rew_penalize_sharpcontact: 0.0000
+   Mean episode rew_penalize_kneeheight: -0.4399
+         Mean episode rew_feet_slippage: 36.0133
+       Mean episode rew_postorientation: 0.2383
+            Mean episode rew_postangvel: 0.0056
+       Mean episode rew_postupperdofpos: 0.0000
+       Mean episode rew_postwaistdofpos: 0.0178
+            Mean episode rew_postlinvel: 0.0698
+            Mean episode rew_ang_vel_xy: -33.5416
+               Mean episode rew_dof_acc: -24.6679
+            Mean episode rew_smoothness: -122.6325
+               Mean episode rew_torques: -0.0031
+               Mean episode rew_dof_vel: -27.1401
+        Mean episode rew_dof_pos_limits: -23.7809
+        Mean episode rew_dof_vel_limits: -167.7182
+         Mean episode rew_torque_limits: -0.6121
+Mean episode rew_deviation_waist_pitch_joint: -17.5074
+--------------------------------------------------------------------------------
+                         Iteration time: 3.39s
+                           Time elapsed: 23:38:27
+                                    ETA: 14:13:36
+
+################################################################################
+                         Learning iteration 24972/40000                          
+
+                               Run name: g1_isaaclab
+                            Total steps: 20457881600 
+                       Steps per second: 241713 
+                        Collection time: 2.962s 
+                          Learning time: 0.427s 
+                        Mean value loss: 0.2901
+                    Mean surrogate loss: -0.0011
+                      Mean entropy loss: 32.1591
+                            Mean reward: -6.16
+                    Mean episode length: 10.41
+                        Mean action std: 0.74
+               Mean episode rew_eereach: 58.1481
+               Mean episode rew_success: 0.1723
+              Mean episode rew_stopball: 4.0864
+            Mean episode rew_stayonline: -0.4266
+             Mean episode rew_noretreat: -3.4267
+           Mean episode rew_successland: 0.0000
+        Mean episode rew_feetorientaion: 1.5826
+ Mean episode rew_penalize_sharpcontact: 0.0000
+   Mean episode rew_penalize_kneeheight: -0.2527
+         Mean episode rew_feet_slippage: 33.4230
+       Mean episode rew_postorientation: 0.0941
+            Mean episode rew_postangvel: 0.0030
+       Mean episode rew_postupperdofpos: 0.0000
+       Mean episode rew_postwaistdofpos: 0.0068
+            Mean episode rew_postlinvel: 0.0338
+            Mean episode rew_ang_vel_xy: -33.0284
+               Mean episode rew_dof_acc: -24.0876
+            Mean episode rew_smoothness: -121.1445
+               Mean episode rew_torques: -0.0032
+               Mean episode rew_dof_vel: -23.4978
+        Mean episode rew_dof_pos_limits: -24.2279
+        Mean episode rew_dof_vel_limits: -136.7135
+         Mean episode rew_torque_limits: -0.7720
+Mean episode rew_deviation_waist_pitch_joint: -16.0337
+--------------------------------------------------------------------------------
+                         Iteration time: 3.39s
+                           Time elapsed: 23:38:30
+                                    ETA: 14:13:33
+
+################################################################################
+                         Learning iteration 24973/40000                          
+
+                               Run name: g1_isaaclab
+                            Total steps: 20458700800 
+                       Steps per second: 241910 
+                        Collection time: 2.958s 
+                          Learning time: 0.429s 
+                        Mean value loss: 0.2762
+                    Mean surrogate loss: 0.0075
+                      Mean entropy loss: 32.1516
+                            Mean reward: -5.29
+                    Mean episode length: 12.31
+                        Mean action std: 0.74
+               Mean episode rew_eereach: 58.9087
+               Mean episode rew_success: 0.1711
+              Mean episode rew_stopball: 5.3584
+            Mean episode rew_stayonline: -0.4385
+             Mean episode rew_noretreat: -3.4806
+           Mean episode rew_successland: 0.0000
+        Mean episode rew_feetorientaion: 1.4652
+ Mean episode rew_penalize_sharpcontact: 0.0000
+   Mean episode rew_penalize_kneeheight: -0.3107
+         Mean episode rew_feet_slippage: 33.8798
+       Mean episode rew_postorientation: 0.1226
+            Mean episode rew_postangvel: 0.0042
+       Mean episode rew_postupperdofpos: 0.0000
+       Mean episode rew_postwaistdofpos: 0.0085
+            Mean episode rew_postlinvel: 0.0463
+            Mean episode rew_ang_vel_xy: -32.3263
+               Mean episode rew_dof_acc: -23.6857
+            Mean episode rew_smoothness: -121.2663
+               Mean episode rew_torques: -0.0034
+               Mean episode rew_dof_vel: -22.9826
+        Mean episode rew_dof_pos_limits: -25.2487
+        Mean episode rew_dof_vel_limits: -131.4709
+         Mean episode rew_torque_limits: -0.7205
+Mean episode rew_deviation_waist_pitch_joint: -16.5655
+--------------------------------------------------------------------------------
+                         Iteration time: 3.39s
+                           Time elapsed: 23:38:33
+                                    ETA: 14:13:30
+
+################################################################################
+                         Learning iteration 24974/40000                          
+
+                               Run name: g1_isaaclab
+                            Total steps: 20459520000 
+                       Steps per second: 241277 
+                        Collection time: 2.966s 
+                          Learning time: 0.429s 
+                        Mean value loss: 0.8482
+                    Mean surrogate loss: 0.0399
+                      Mean entropy loss: 32.1459
+                            Mean reward: -7.34
+                    Mean episode length: 13.15
+                        Mean action std: 0.74
+               Mean episode rew_eereach: 64.7747
+               Mean episode rew_success: 0.1817
+              Mean episode rew_stopball: 7.4639
+            Mean episode rew_stayonline: -0.4656
+             Mean episode rew_noretreat: -3.9080
+           Mean episode rew_successland: 0.0000
+        Mean episode rew_feetorientaion: 1.6403
+ Mean episode rew_penalize_sharpcontact: 0.0000
+   Mean episode rew_penalize_kneeheight: -0.5600
+         Mean episode rew_feet_slippage: 36.5089
+       Mean episode rew_postorientation: 0.2201
+            Mean episode rew_postangvel: 0.0050
+       Mean episode rew_postupperdofpos: 0.0000
+       Mean episode rew_postwaistdofpos: 0.0169
+            Mean episode rew_postlinvel: 0.0775
+            Mean episode rew_ang_vel_xy: -35.4727
+               Mean episode rew_dof_acc: -24.3790
+            Mean episode rew_smoothness: -128.3217
+               Mean episode rew_torques: -0.0032
+               Mean episode rew_dof_vel: -27.5488
+        Mean episode rew_dof_pos_limits: -26.0214
+        Mean episode rew_dof_vel_limits: -173.2161
+         Mean episode rew_torque_limits: -0.7935
+Mean episode rew_deviation_waist_pitch_joint: -16.6017
+--------------------------------------------------------------------------------
+                         Iteration time: 3.40s
+                           Time elapsed: 23:38:37
+                                    ETA: 14:13:26
+
+################################################################################
+                         Learning iteration 24975/40000                          
+
+                               Run name: g1_isaaclab
+                            Total steps: 20460339200 
+                       Steps per second: 240391 
+                        Collection time: 2.980s 
+                          Learning time: 0.427s 
+                        Mean value loss: 1.1630
+                    Mean surrogate loss: 0.0533
+                      Mean entropy loss: 32.1470
+                            Mean reward: -8.12
+                    Mean episode length: 13.56
+                        Mean action std: 0.74
+               Mean episode rew_eereach: 71.8705
+               Mean episode rew_success: 0.2312
+              Mean episode rew_stopball: 7.1147
+            Mean episode rew_stayonline: -0.5375
+             Mean episode rew_noretreat: -4.4422
+           Mean episode rew_successland: 0.0000
+        Mean episode rew_feetorientaion: 1.9314
+ Mean episode rew_penalize_sharpcontact: 0.0000
+   Mean episode rew_penalize_kneeheight: -0.9442
+         Mean episode rew_feet_slippage: 39.3696
+       Mean episode rew_postorientation: 0.2367
+            Mean episode rew_postangvel: 0.0047
+       Mean episode rew_postupperdofpos: 0.0000
+       Mean episode rew_postwaistdofpos: 0.0213
+            Mean episode rew_postlinvel: 0.0766
+            Mean episode rew_ang_vel_xy: -38.6753
+               Mean episode rew_dof_acc: -26.6034
+            Mean episode rew_smoothness: -128.7793
+               Mean episode rew_torques: -0.0029
+               Mean episode rew_dof_vel: -34.9291
+        Mean episode rew_dof_pos_limits: -22.9282
+        Mean episode rew_dof_vel_limits: -239.3515
+         Mean episode rew_torque_limits: -0.7938
+Mean episode rew_deviation_waist_pitch_joint: -17.6779
+--------------------------------------------------------------------------------
+                         Iteration time: 3.41s
+                           Time elapsed: 23:38:40
+                                    ETA: 14:13:23
+
+################################################################################
+                         Learning iteration 24976/40000                          
+
+                               Run name: g1_isaaclab
+                            Total steps: 20461158400 
+                       Steps per second: 239751 
+                        Collection time: 2.990s 
+                          Learning time: 0.427s 
+                        Mean value loss: 0.9110
+                    Mean surrogate loss: 0.0454
+                      Mean entropy loss: 32.1499
+                            Mean reward: -8.34
+                    Mean episode length: 13.00
+                        Mean action std: 0.74
+               Mean episode rew_eereach: 70.7988
+               Mean episode rew_success: 0.2510
+              Mean episode rew_stopball: 6.2367
+            Mean episode rew_stayonline: -0.5026
+             Mean episode rew_noretreat: -4.1235
+           Mean episode rew_successland: 0.0000
+        Mean episode rew_feetorientaion: 2.1385
+ Mean episode rew_penalize_sharpcontact: 0.0000
+   Mean episode rew_penalize_kneeheight: -0.8838
+         Mean episode rew_feet_slippage: 38.8186
+       Mean episode rew_postorientation: 0.1896
+            Mean episode rew_postangvel: 0.0044
+       Mean episode rew_postupperdofpos: 0.0000
+       Mean episode rew_postwaistdofpos: 0.0170
+            Mean episode rew_postlinvel: 0.0565
+            Mean episode rew_ang_vel_xy: -38.8954
+               Mean episode rew_dof_acc: -27.8145
+            Mean episode rew_smoothness: -125.2858
+               Mean episode rew_torques: -0.0028
+               Mean episode rew_dof_vel: -36.1900
+        Mean episode rew_dof_pos_limits: -20.4149
+        Mean episode rew_dof_vel_limits: -250.4741
+         Mean episode rew_torque_limits: -0.8308
+Mean episode rew_deviation_waist_pitch_joint: -17.5702
+--------------------------------------------------------------------------------
+                         Iteration time: 3.42s
+                           Time elapsed: 23:38:44
+                                    ETA: 14:13:19
+
+################################################################################
+                         Learning iteration 24977/40000                          
+
+                               Run name: g1_isaaclab
+                            Total steps: 20461977600 
+                       Steps per second: 240983 
+                        Collection time: 2.972s 
+                          Learning time: 0.427s 
+                        Mean value loss: 0.4226
+                    Mean surrogate loss: 0.0089
+                      Mean entropy loss: 32.1507
+                            Mean reward: -7.48
+                    Mean episode length: 12.54
+                        Mean action std: 0.74
+               Mean episode rew_eereach: 69.0787
+               Mean episode rew_success: 0.2090
+              Mean episode rew_stopball: 7.1476
+            Mean episode rew_stayonline: -0.4966
+             Mean episode rew_noretreat: -4.0207
+           Mean episode rew_successland: 0.0000
+        Mean episode rew_feetorientaion: 1.6649
+ Mean episode rew_penalize_sharpcontact: 0.0000
+   Mean episode rew_penalize_kneeheight: -0.6871
+         Mean episode rew_feet_slippage: 38.4616
+       Mean episode rew_postorientation: 0.2079
+            Mean episode rew_postangvel: 0.0051
+       Mean episode rew_postupperdofpos: 0.0000
+       Mean episode rew_postwaistdofpos: 0.0158
+            Mean episode rew_postlinvel: 0.0655
+            Mean episode rew_ang_vel_xy: -35.7059
+               Mean episode rew_dof_acc: -24.7790
+            Mean episode rew_smoothness: -127.4817
+               Mean episode rew_torques: -0.0030
+               Mean episode rew_dof_vel: -30.3552
+        Mean episode rew_dof_pos_limits: -25.0414
+        Mean episode rew_dof_vel_limits: -196.8450
+         Mean episode rew_torque_limits: -0.5760
+Mean episode rew_deviation_waist_pitch_joint: -18.0188
+--------------------------------------------------------------------------------
+                         Iteration time: 3.40s
+                           Time elapsed: 23:38:47
+                                    ETA: 14:13:16
+
+################################################################################
+                         Learning iteration 24978/40000                          
+
+                               Run name: g1_isaaclab
+                            Total steps: 20462796800 
+                       Steps per second: 240909 
+                        Collection time: 2.972s 
+                          Learning time: 0.429s 
+                        Mean value loss: 0.4097
+                    Mean surrogate loss: 0.0126
+                      Mean entropy loss: 32.1482
+                            Mean reward: -7.29
+                    Mean episode length: 11.99
+                        Mean action std: 0.74
+               Mean episode rew_eereach: 69.1401
+               Mean episode rew_success: 0.2153
+              Mean episode rew_stopball: 7.7423
+            Mean episode rew_stayonline: -0.5192
+             Mean episode rew_noretreat: -4.2214
+           Mean episode rew_successland: 0.0000
+        Mean episode rew_feetorientaion: 1.6799
+ Mean episode rew_penalize_sharpcontact: 0.0000
+   Mean episode rew_penalize_kneeheight: -0.7028
+         Mean episode rew_feet_slippage: 38.5094
+       Mean episode rew_postorientation: 0.2718
+            Mean episode rew_postangvel: 0.0057
+       Mean episode rew_postupperdofpos: 0.0000
+       Mean episode rew_postwaistdofpos: 0.0210
+            Mean episode rew_postlinvel: 0.0874
+            Mean episode rew_ang_vel_xy: -35.2424
+               Mean episode rew_dof_acc: -24.5625
+            Mean episode rew_smoothness: -126.9762
+               Mean episode rew_torques: -0.0031
+               Mean episode rew_dof_vel: -29.9830
+        Mean episode rew_dof_pos_limits: -25.3278
+        Mean episode rew_dof_vel_limits: -193.4630
+         Mean episode rew_torque_limits: -0.5408
+Mean episode rew_deviation_waist_pitch_joint: -18.1859
+--------------------------------------------------------------------------------
+                         Iteration time: 3.40s
+                           Time elapsed: 23:38:50
+                                    ETA: 14:13:13
+
+################################################################################
+                         Learning iteration 24979/40000                          
+
+                               Run name: g1_isaaclab
+                            Total steps: 20463616000 
+                       Steps per second: 241879 
+                        Collection time: 2.959s 
+                          Learning time: 0.428s 
+                        Mean value loss: 0.5559
+                    Mean surrogate loss: -0.0008
+                      Mean entropy loss: 32.1457
+                            Mean reward: -4.75
+                    Mean episode length: 11.43
+                        Mean action std: 0.74
+               Mean episode rew_eereach: 62.1389
+               Mean episode rew_success: 0.1793
+              Mean episode rew_stopball: 5.8385
+            Mean episode rew_stayonline: -0.4530
+             Mean episode rew_noretreat: -3.7243
+           Mean episode rew_successland: 0.0000
+        Mean episode rew_feetorientaion: 1.5136
+ Mean episode rew_penalize_sharpcontact: 0.0000
+   Mean episode rew_penalize_kneeheight: -0.4976
+         Mean episode rew_feet_slippage: 35.2993
+       Mean episode rew_postorientation: 0.1706
+            Mean episode rew_postangvel: 0.0040
+       Mean episode rew_postupperdofpos: 0.0000
+       Mean episode rew_postwaistdofpos: 0.0130
+            Mean episode rew_postlinvel: 0.0627
+            Mean episode rew_ang_vel_xy: -35.2918
+               Mean episode rew_dof_acc: -24.7011
+            Mean episode rew_smoothness: -123.9617
+               Mean episode rew_torques: -0.0034
+               Mean episode rew_dof_vel: -26.4420
+        Mean episode rew_dof_pos_limits: -25.0564
+        Mean episode rew_dof_vel_limits: -161.2938
+         Mean episode rew_torque_limits: -1.5630
+Mean episode rew_deviation_waist_pitch_joint: -16.7066
+--------------------------------------------------------------------------------
+                         Iteration time: 3.39s
+                           Time elapsed: 23:38:54
+                                    ETA: 14:13:09
+
+################################################################################
+                         Learning iteration 24980/40000                          
+
+                               Run name: g1_isaaclab
+                            Total steps: 20464435200 
+                       Steps per second: 241989 
+                        Collection time: 2.957s 
+                          Learning time: 0.429s 
+                        Mean value loss: 0.6306
+                    Mean surrogate loss: -0.0079
+                      Mean entropy loss: 32.1437
+                            Mean reward: -5.06
+                    Mean episode length: 11.38
+                        Mean action std: 0.74
+               Mean episode rew_eereach: 53.1578
+               Mean episode rew_success: 0.1232
+              Mean episode rew_stopball: 3.4223
+            Mean episode rew_stayonline: -0.4064
+             Mean episode rew_noretreat: -3.4030
+           Mean episode rew_successland: 0.0000
+        Mean episode rew_feetorientaion: 1.1510
+ Mean episode rew_penalize_sharpcontact: 0.0000
+   Mean episode rew_penalize_kneeheight: -0.3472
+         Mean episode rew_feet_slippage: 31.2943
+       Mean episode rew_postorientation: 0.0822
+            Mean episode rew_postangvel: 0.0024
+       Mean episode rew_postupperdofpos: 0.0000
+       Mean episode rew_postwaistdofpos: 0.0052
+            Mean episode rew_postlinvel: 0.0307
+            Mean episode rew_ang_vel_xy: -35.5810
+               Mean episode rew_dof_acc: -23.5181
+            Mean episode rew_smoothness: -121.2412
+               Mean episode rew_torques: -0.0039
+               Mean episode rew_dof_vel: -19.9125
+        Mean episode rew_dof_pos_limits: -27.5740
+        Mean episode rew_dof_vel_limits: -103.5571
+         Mean episode rew_torque_limits: -2.4741
+Mean episode rew_deviation_waist_pitch_joint: -15.0491
+--------------------------------------------------------------------------------
+                         Iteration time: 3.39s
+                           Time elapsed: 23:38:57
+                                    ETA: 14:13:06
+
+################################################################################
+                         Learning iteration 24981/40000                          
+
+                               Run name: g1_isaaclab
+                            Total steps: 20465254400 
+                       Steps per second: 242051 
+                        Collection time: 2.958s 
+                          Learning time: 0.427s 
+                        Mean value loss: 0.4927
+                    Mean surrogate loss: -0.0044
+                      Mean entropy loss: 32.1420
+                            Mean reward: -6.06
+                    Mean episode length: 9.27
+                        Mean action std: 0.74
+               Mean episode rew_eereach: 51.9373
+               Mean episode rew_success: 0.1302
+              Mean episode rew_stopball: 4.8876
+            Mean episode rew_stayonline: -0.3952
+             Mean episode rew_noretreat: -3.2530
+           Mean episode rew_successland: 0.0000
+        Mean episode rew_feetorientaion: 1.2388
+ Mean episode rew_penalize_sharpcontact: -0.0030
+   Mean episode rew_penalize_kneeheight: -0.3444
+         Mean episode rew_feet_slippage: 30.7255
+       Mean episode rew_postorientation: 0.1171
+            Mean episode rew_postangvel: 0.0035
+       Mean episode rew_postupperdofpos: 0.0000
+       Mean episode rew_postwaistdofpos: 0.0071
+            Mean episode rew_postlinvel: 0.0457
+            Mean episode rew_ang_vel_xy: -36.2013
+               Mean episode rew_dof_acc: -24.0406
+            Mean episode rew_smoothness: -121.4719
+               Mean episode rew_torques: -0.0038
+               Mean episode rew_dof_vel: -20.2372
+        Mean episode rew_dof_pos_limits: -26.0696
+        Mean episode rew_dof_vel_limits: -107.3587
+         Mean episode rew_torque_limits: -2.4139
+Mean episode rew_deviation_waist_pitch_joint: -14.7928
+--------------------------------------------------------------------------------
+                         Iteration time: 3.38s
+                           Time elapsed: 23:39:01
+                                    ETA: 14:13:02
