@@ -1,10 +1,11 @@
 """Evaluate a trained Goalkeeper policy.
 
 Usage:
-    conda activate /home/isaak/miniconda3/envs/env_isaaclab
-    python scripts/play.py --num_envs=4 --checkpoint=logs/rsl_rl/goalkeeper/.../model_*.pt
+    conda activate isaak_isaaclab
+    python scripts/play.py --headless --num_envs=4 --checkpoint=logs/rsl_rl/goalkeeper/.../model_*.pt
 """
 import argparse
+import importlib.metadata
 import sys
 import os
 
@@ -13,7 +14,6 @@ from isaaclab.app import AppLauncher
 parser = argparse.ArgumentParser(description="Play Goalkeeper with RSL-RL PPO")
 parser.add_argument("--num_envs", type=int, default=4)
 parser.add_argument("--checkpoint", type=str, required=True, help="Path to model checkpoint .pt")
-parser.add_argument("--device", type=str, default="cuda:0")
 AppLauncher.add_app_launcher_args(parser)
 args_cli = parser.parse_args()
 app_launcher = AppLauncher(args_cli)
@@ -22,7 +22,7 @@ simulation_app = app_launcher.app
 import torch
 import gymnasium as gym
 from rsl_rl.runners import OnPolicyRunner
-from isaaclab_rl.rsl_rl import RslRlVecEnvWrapper
+from isaaclab_rl.rsl_rl import RslRlVecEnvWrapper, handle_deprecated_rsl_rl_cfg
 
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 import goalkeeper  # noqa: F401
@@ -40,6 +40,10 @@ def main():
     agent_cfg = GoalkeeperPPORunnerCfg()
     agent_cfg.device = args_cli.device
 
+    # Convert deprecated rsl_rl config fields for the installed rsl_rl version
+    rsl_rl_version = importlib.metadata.version("rsl_rl_lib")
+    agent_cfg = handle_deprecated_rsl_rl_cfg(agent_cfg, rsl_rl_version)
+
     env = gym.make("Isaac-Goalkeeper-Direct-v0", cfg=env_cfg)
     env = RslRlVecEnvWrapper(env, clip_actions=agent_cfg.clip_actions)
 
@@ -47,7 +51,7 @@ def main():
     runner.load(args_cli.checkpoint)
     policy = runner.get_inference_policy(device=args_cli.device)
 
-    obs, _ = env.get_observations()
+    obs, _ = env.reset()
     while simulation_app.is_running():
         with torch.no_grad():
             actions = policy(obs)
