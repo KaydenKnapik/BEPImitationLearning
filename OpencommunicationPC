@@ -1,0 +1,8 @@
+You can stop the training if you need the pc, i am just testing things ~Isaak +31 6 29393445
+
+
+Updating to the latest versions of isaacsim/lab reduced iteration time 5s->3.7s
+env -> isaak_isaaclab	
+it uses now isaaclab (main) isaacsim 5.1.0 installation in home/IsaakB
+
+Original repo said 20000 to converge, so if u can, please wait till i hit 20 000!
