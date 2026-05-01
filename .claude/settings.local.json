@@ -10,7 +10,9 @@
       "Bash(mkdir -p /home/isaak/.claude/mcp_servers/isaaclab_docs)",
       "Bash(pip install *)",
       "Bash(mkdir -p /home/isaak/.claude/mcp_servers/isaacgym_docs)",
-      "Bash(cp /home/isaak/BEPImitationlearning/isaacgym_mcp/server.py /home/isaak/.claude/mcp_servers/isaacgym_docs/server.py)"
+      "Bash(cp /home/isaak/BEPImitationlearning/isaacgym_mcp/server.py /home/isaak/.claude/mcp_servers/isaacgym_docs/server.py)",
+      "Bash(python3 -c \"import rsl_rl; print\\(rsl_rl.__version__\\)\")",
+      "Bash(/home/robocup/miniconda3/envs/isaak_isaaclab/bin/python -c \"import rsl_rl; print\\(rsl_rl.__version__\\)\")"
     ]
   }
 }

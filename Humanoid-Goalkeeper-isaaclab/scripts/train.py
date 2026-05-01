@@ -57,9 +57,8 @@ def main():
     if args_cli.max_iterations is not None:
         agent_cfg.max_iterations = args_cli.max_iterations
 
-    # Convert deprecated rsl_rl config fields for the installed rsl_rl version
-    rsl_rl_version = importlib.metadata.version("rsl_rl_lib")
-    agent_cfg = handle_deprecated_rsl_rl_cfg(agent_cfg, rsl_rl_version)
+    # Clean up deprecated stochastic/noise fields from model configs (rsl_rl >= 5.0.0)
+    agent_cfg = handle_deprecated_rsl_rl_cfg(agent_cfg, "5.0.1")
 
     # Logging directory
     log_root = os.path.join(

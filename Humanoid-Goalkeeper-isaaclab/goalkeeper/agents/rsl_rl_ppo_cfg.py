@@ -1,17 +1,15 @@
 """RSL-RL OnPolicyRunner configuration for the Goalkeeper environment.
 
-Updated for rsl_rl 5.0.1 / isaaclab_rl 0.5.0 (Isaac Sim 5.1.0).
-Key API changes vs the original (rsl_rl 1.0.2 / Isaac Sim 5.0.0):
-  - RslRlPpoActorCriticCfg replaced by RslRlMLPModelCfg (separate actor + critic)
-  - obs_groups key renamed from "policy" to "actor"
-  - empirical_normalization field now required
-  - distribution_cfg replaces init_noise_std / noise_std_type on the actor model
+Uses Isaac Lab's rsl_rl wrapper with standard PPO hyperparameters
+matching the original G1 HIM-PPO configuration.
+
+Compatible with rsl_rl >= 5.0.0 (uses actor/critic + distribution_cfg API).
 """
 from isaaclab.utils import configclass
 from isaaclab_rl.rsl_rl import (
     RslRlOnPolicyRunnerCfg,
-    RslRlMLPModelCfg,
     RslRlPpoAlgorithmCfg,
+    RslRlMLPModelCfg,
 )
 
 

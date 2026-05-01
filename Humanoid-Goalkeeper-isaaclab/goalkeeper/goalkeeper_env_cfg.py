@@ -23,7 +23,7 @@ _REPO_ROOT = os.path.dirname(_THIS_DIR)
 _GK_ROOT = os.path.join(os.path.dirname(_REPO_ROOT), "Humanoid-Goalkeeper")
 _LEGGED_GYM_ROOT = os.path.join(_GK_ROOT, "legged_gym")
 _G1_URDF = os.path.join(_LEGGED_GYM_ROOT, "resources", "robots", "g1", "urdf", "g1_29.urdf")
-_DATASETS_DIR = os.path.join(_REPO_ROOT, "resources", "datasets", "goalkeeper")
+_DATASETS_DIR = os.path.join(_GK_ROOT, "legged_gym", "resources", "datasets", "goalkeeper")
 
 # ---------------------------------------------------------------------------
 # G1 Robot ArticulationCfg (manual PD — effort control)

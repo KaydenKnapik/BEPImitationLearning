@@ -39,6 +39,7 @@ def main():
 
     agent_cfg = GoalkeeperPPORunnerCfg()
     agent_cfg.device = args_cli.device
+    agent_cfg = handle_deprecated_rsl_rl_cfg(agent_cfg, "5.0.1")
 
     # Convert deprecated rsl_rl config fields for the installed rsl_rl version
     rsl_rl_version = importlib.metadata.version("rsl_rl_lib")
